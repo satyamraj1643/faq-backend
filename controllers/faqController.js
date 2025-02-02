@@ -1,7 +1,9 @@
+require('dotenv').config();
 const FAQ = require("../models/faq.js");
 const tr = require("googletrans").default;
 const DetectLanguage = require('detectlanguage');
-const detectlanguage = new DetectLanguage('0b26a8de09f9c188c32099342ed05ff2');
+const detectLanguageAPIKey = process.env.DETECT_LANGUAGE_API_KEY;
+const detectlanguage = new DetectLanguage(detectLanguageAPIKey);
 const Sequelize = require("sequelize");
 const redisClient = require("../config/redis.js");
 
