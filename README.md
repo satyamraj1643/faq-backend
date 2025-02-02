@@ -18,7 +18,7 @@ Acts as a backend service for the faq frontend service.
 
 **Tools:**  [Detect Language API ](https://detectlanguage.com/), [googletrans](https://github.com/DarinRowe/googletrans)
 
-**Hosting** Redis([Upstash](https://upstash.com/)) , Mysql([AWS RDS](https://aws.amazon.com/rds/))
+**Hosting** Redis([Upstash](https://upstash.com/)) , Mysql([AWS RDS](https://aws.amazon.com/rds/)), [Render](https://render.com/)
 
 ## Features  
 
@@ -104,6 +104,7 @@ Make sure that you have databases created in your DB Instance for database names
 - [Amazon AWS](https://aws.amazon.com/?nc2=h_lg)
 - [Redis](https://redis.io/)
 - [Upstash](https://upstash.com/)
+- [Render](https://render.com/)
 
 
 ## Feedback  
